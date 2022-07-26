@@ -1,0 +1,38 @@
+Database: Collection of data which holds data in form of Tables.
+
+Table: A way of storing data in form of rows and columns. 
+
+Database is used to store, access and manipulate the data.
+
+Types of Databases: Relational Database vs Non Relational or NoSQL Database
+
+->Relational Database: Data is stored in the form of rows and columns(Tables). Multiple tables have relations between them.
+  Ex: MySQL, SQL Server, PostreSQL, SQLite, MariaDB 
+
+->NoSQL: Data is stored in form of Key value pairs, Documents and Graph. Not in rows and columns. Two tables do not have relation between them.
+  Ex: Hbase, MangoDB, Cassandra
+
+Focus on MySQL.
+
+SQL - Structured Query Language - A way to communicate with Relational database(MySQL). It is used to query a relational Db.
+
+Create a DB
+-> CREATE DATABASE database_name;
+
+USE database
+-> USE database_name;
+
+Create Table
+-> CREATE TABLE table_name(
+          column_name1 datatype,
+          column_name2 datatype,
+          column_name3 datatype
+          );
+ 
+Data Types:
+
+Int - Numeric values
+Varchar - strings upto 255 characters
+
+
+
