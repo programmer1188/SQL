@@ -34,5 +34,11 @@ Data Types:
 Int - Numeric values
 Varchar - strings upto 255 characters
 
+DROP table
+-> DROP TABLE Student;
+
+Drop DB
+-> DROP DATABASE;
+
 
 
