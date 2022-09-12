@@ -1,3 +1,8 @@
+/* CRUD Operations */
+/* Single Insert vs Multiple Insert */
+/* NULL VS NOT NULL */
+/* Default and NOT NULL */
+
 /* create a table */
 CREATE TABLE Employee(
 firstname varchar(30),
