@@ -21,7 +21,59 @@ Primary Keys: A column whose values uniquely identify every row in a table. It i
 SQL: Structured Query Language designed specifically for communicating with databases. It is very easy to learn. MySQL -> DBMS
 
  
-  
+
+LESSON 2 - Retriving Data
+
+SELECT: Its purpose is to retrive information from one or more tables.
+
+DISTINCT: Only return Distinct/Unique values in the column.
+
+LIMIT: To limit the results to top 10 rows or 5 rows
+OFFSET
+
+Comments: Inline and Multi Line
+USE sql_sams;
+
+SELECT * FROM customers;
+
+/* Retrieve Single column*/
+SELECT prod_name
+FROM Products; 
+
+/* Retrieve Multiple columns*/
+SELECT prod_id, prod_name, prod_price 
+FROM products;
+
+/* Retrieve All columns using Asterisk(*) wild card character*/
+SELECT *
+FROM products;
+
+/* Retrieve vendors Id from products */
+SELECT vend_id
+FROM products;
+
+/* Retrieving Distinct(unique) Rows */
+/* To get DISTINCT Vendors (Rows) use DISTINCT Keyword */
+SELECT DISTINCT(vend_id)
+FROM products;
+
+SELECT vend_id, prod_price FROM products;
+SELECT DISTINCT vend_id, prod_price FROM products;
+
+/* LIMIT */
+SELECT prod_name FROM products LIMIT 5;
+
+/* We can also set where to strat can give 5 rows of data */
+/* It strats from 4 and gives upto 8 (4,5,6,7,8)*/
+SELECT prod_name FROM products LIMIT 5 OFFSET 3; 
+
+/* We can also use the short hand version by combing limit and offset */
+/* here the first number is offset - where to strat from and second number is limit - how many rows to retrive */
+SELECT prod_name FROM products LIMIT 3,5; 
+
+#comments  - In line comment
+
+
 
 
 
