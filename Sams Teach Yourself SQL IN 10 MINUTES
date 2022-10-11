@@ -73,6 +73,22 @@ SELECT prod_name FROM products LIMIT 3,5;
 
 #comments  - In line comment
 
+#Challanges in lesson 2
+
+#1 Write a SQL statement to retrieve all customer ids (cust_id) from the Customers table.
+SELECT cust_id FROM customers;
+
+#2 The OrderItems table contains every item ordered (and some were ordered multiple times). 
+   Write a SQL statement to retrieve a list of the products (prod_id) ordered (not every order, just a unique list of products). 
+   Here’s a hint, you should end up with seven unique rows displayed.
+SELECT DISTINCT prod_id FROM orderitems;
+
+#3 Write a SQL statement that retrieves all columns from the Customers table, and an alternate SELECT that retrieves just the customer id. 
+   Use comments to comment out one SELECT so as to be able to run the other. (And of course, test both statements).
+/*
+SELECT * FROM customers;
+*/
+SELECT cust_id FROM customers;
 
 
 
