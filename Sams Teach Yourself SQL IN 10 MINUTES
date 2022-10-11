@@ -1,0 +1,29 @@
+Sams Teach yourself SQL IN 10 MINUTES
+
+LESSON 1
+
+DATABASE: It is a collection of data stored in some organized fashion. A container to store organized data. 
+DBMS - Database Management System: Database software is called DBMS where we can create and manipulate data.
+TABLE: A structured list of data of a specific type. Ex: List of customers or any list of information. Every table has a name and it is unique in the database.
+SCHEMA: Information about the database and table layput and its properties. 
+        These include information about what data may be stored, how it is broken up, how individual pieces of information are named.
+COLUMN: Tables are made up of columns. A single field in a table. All tables are made up of one or more columns. Each column has an associated DataType. 
+        A datatype define what type of data the column can contain.
+ROW: Data in table is stored in rows. Each record in a table is row.(Rows or Records)
+
+Primary Keys: A column whose values uniquely identify every row in a table. It is not actually required to have a primary key 
+              but designers ensure that every table they create has a primary key so that the future data manipulation is possible and manageable.
+              -> No two rows should have the same primary key value
+              -> Every row must have the value in the primary key columns (No Null values)
+              -> Values in Primary Key columns should never be modified or updated
+              -> Primary key values should never be reused. (If row is deleted form the table, Its primary key may not be assigned to any new rows in the future)
+      
+SQL: Structured Query Language designed specifically for communicating with databases. It is very easy to learn. MySQL -> DBMS
+
+ 
+  
+
+
+
+
+
