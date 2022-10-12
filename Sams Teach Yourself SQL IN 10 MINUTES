@@ -38,9 +38,15 @@ SELECT * FROM customers;
 
 #comments  - In line comment
 
-ORDER BY
 
+LESSON 3 - Sorting DATA
+
+ORDER BY
 ORDER BY column name DESC;
+
+LESSON 4
+
+Filtering Data - WHERE 
 
 
 
