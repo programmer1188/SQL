@@ -1,0 +1,40 @@
+To see all the databases present in the MySQL server.
+-> SHOW databases;
+
+To Create Database
+CREATE DATABASE shop;
+
+To Delete Database
+DROP DATABASE shop;
+
+To USE the database
+USE shop;
+
+To check which database we are currently using
+SELECT DATABASE();
+
+All databases have lot of tables in them
+Datatypes in Tables:
+-> Numeric Types: INT(Whole number)
+-> String Types: varchar(a variable length string)
+-> Date Types 
+
+To create a Table in Database
+CREATE TABLE cats (
+name VARCHAR(35),
+age INT
+);
+
+To see Tables in our database
+SHOW TABLES;
+
+To see columns in the Table
+SHOW COLUMNS FROM cats;
+or
+DESC cats
+
+To Drop a Table
+DROP TABLE cats;
+
+Comments in MySQL
+-- You can write comments after space
