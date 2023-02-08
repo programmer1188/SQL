@@ -58,3 +58,32 @@ CREATE TABLE cats (
 
 Use (\) backslash to escape a character
 INSERT INTO people (first_name, last_name, age) VALUES('Madhu\'s','Karumuru',24);
+
+
+Primary Key -> Cannot be NULL 
+-- One way of specifying a PRIMARY KEY
+
+CREATE TABLE unique_cats (
+	cat_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
+-- Another way for Primary Key:
+
+CREATE TABLE unique_cats (
+	cat_id INT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (cat_id)
+);
+
+
+--  AUTO_INCREMENT
+
+CREATE TABLE unique_cats3 (
+    cat_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
