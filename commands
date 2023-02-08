@@ -38,3 +38,23 @@ DROP TABLE cats;
 
 Comments in MySQL
 -- You can write comments after space
+
+Insert data into Cats Table
+
+INSERT INTO cats (name, age) 
+VALUES ('Blue Steele', 10),('Brown',5);
+
+ALways use single quotes('') for strings
+
+To view all rows in our table:
+SELECT * FROM cats;
+
+Using NOT NULL:
+CREATE TABLE cats (
+    name VARCHAR(100) NOT NULL, -- Once we specify a column as NOT NULL then it must have a value cannnot be a null
+    age INT NOT NULL
+);
+
+
+Use (\) backslash to escape a character
+INSERT INTO people (first_name, last_name, age) VALUES('Madhu\'s','Karumuru',24);
